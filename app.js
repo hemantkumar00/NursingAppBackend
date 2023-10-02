@@ -13,7 +13,7 @@ const app = express();
 
 mongoose
   .connect(
-    process.env.MONGO_URL ||
+    
       "mongodb+srv://hemant:<12345678@Qaz>@cluster0.eeycxwc.mongodb.net/?retryWrites=true&w=majority",
   )
   .then(() => {
