@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
       testSeries: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "TestSeries",
-        // unique: true,
+        unique: true,
       },
       payment: {
         type: mongoose.Schema.Types.ObjectId,
