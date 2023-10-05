@@ -13,7 +13,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://hemant:12345678%40Qaz@cluster0.eeycxwc.mongodb.net/nursingApp?retryWrites=true&w=majority",
+    "mongodb+srv://hemant:12345678%40Qaz@cluster0.eeycxwc.mongodb.net/nursing?retryWrites=true&w=majority",
   )
   .then(() => {
     console.log("DB connected...");
